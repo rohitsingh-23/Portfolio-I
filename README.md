@@ -2,9 +2,9 @@
 
 
 # Technologies Used
-* HTML and CSS
+* HTML
+* CSS
 * JavaScript
-* Localstorage for Storing data
 
 # Tools
 * VS Code
