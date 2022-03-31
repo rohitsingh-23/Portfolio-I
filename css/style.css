@@ -31,6 +31,7 @@ html,
 body {
   overflow-x: hidden;
 }
+
 body {
   background: #17202a;
   transition: all 0.3s ease-in-out;
@@ -308,13 +309,15 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-#about .about-content .about-body .about-tech .skill-icon {
+
+
+#about .about-content .about-body .about-tech .skill-icon  {
   color: #00daf4;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   font-size: 30px;
   background: rgba(23, 32, 42, 0.25);
   box-shadow: inset 0 8px 32px 0 rgba(0, 218, 244, 0.07);
@@ -550,6 +553,7 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 .socials-2 .icons {
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   opacity: 0;
@@ -919,4 +923,14 @@ nav {
   #footer {
     width: 70%;
   }
+}
+
+
+.html>img{
+  width: 50px;
+  height: 50px;
+}
+
+.circle{
+  border-radius: 50%;
 }
