@@ -212,9 +212,15 @@ nav {
   border-radius: 310px;
 }
 
+.intro-container{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #intro .intro-content {
-  display: grid;
-  grid-template-columns: 70% 50%;
   font-family: "Nunito Sans", monospace;
 }
 #intro .intro-content .intro-text {
@@ -250,21 +256,11 @@ nav {
 #intro .intro-content a :hover {
   background: rgba(0, 218, 244, 0.9) !important;
 }
-#intro .intro-content .intro-img {
-  width: 80%;
-  height: 100%;
-}
-#intro .intro-content .intro-img img {
-  width: 100%;
-  pointer-events: none;
-  z-index: -1;
-}
 #about {
   position: relative;
   width: 60%;
   margin: auto;
-  margin-top: 9rem;
-  padding-top: 8rem;
+  padding-top: 5rem;
   font-family: "Nunito Sans";
 }
 .about-header {
@@ -772,11 +768,20 @@ nav {
   nav {
     flex: 2;
   }
-  #intro .intro-content {
-    grid-template-columns: 100%;
+  .intro-container {
+      color: green !important;
+    flex-direction: column;
+
+    justify-content: space-between;
   }
-  #intro .intro-content .intro-img img {
-    display: none;
+  .intro-container .intro-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .intro-container .intro-img .adjust {
+    width: 50%;
   }
   #intro .intro-content .intro-text p {
     width: 50%;
@@ -881,7 +886,7 @@ nav {
     width: 140px;
   }
   #about {
-    margin-top: 12rem;
+    margin-top: 2rem;
   }
   #projects {
     margin-top: 5rem;
