@@ -281,24 +281,27 @@ nav {
   width: 320px;
 }
 #about .about-content .about-body {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 3rem;
+  /* display: grid; */
+  /* grid-template-columns: 50% 50%; */
+  /* grid-gap: 3rem; */
+  
 }
 #about .about-content .about-body .about-tech {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 5rem;
 }
 #about .about-content .about-body .about-tech h1 {
   font-family: "Nunito Sans";
+  font-size: 30;
 }
 #about .about-content .about-body .about-tech .icons {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   -ms-grid-row-align: center;
   grid-gap: 2rem 0rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 #about .about-content .about-body .about-tech .html {
   display: flex;
@@ -683,7 +686,7 @@ nav {
     margin-top: 4rem;
   }
   #about .about-content .about-body .about-tech .icons {
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
   .section-header-1::after {
     width: 260px;
@@ -828,7 +831,7 @@ nav {
     grid-template-columns: 60% 40%;
   }
   #about .about-content .about-body .about-tech .icons {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   #projects {
     width: 75%;
