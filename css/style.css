@@ -209,7 +209,8 @@ nav {
 .adjust {
   margin-top: 5rem;
   border: #00daf4 solid 5px;
-  border-radius: 310px;
+  border-radius: 50%;
+  width: 70%;
 }
 
 .intro-container{
@@ -218,6 +219,11 @@ nav {
   gap: 50px 50px;
   justify-content: space-between;
   align-items: center;
+}
+
+.intro-img {
+  display: flex;
+  justify-content: end;
 }
 
 #intro .intro-content {
