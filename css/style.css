@@ -363,6 +363,15 @@ nav {
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
+
+#projects .ptype-memory-game {
+  background: url(../media/memory-game.png) no-repeat center center/cover;
+}
+
+#projects .ptype-dictionary-app {
+  background: url(../media/dictionary-app.png) no-repeat center center/cover;
+}
+
 #projects .projects-body .ptype-1 {
   background: url(../media/Ikea-India.png) no-repeat center center/cover;
 }
